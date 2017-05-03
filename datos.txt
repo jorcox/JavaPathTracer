@@ -1,0 +1,12 @@
+iAmbiental 0.08
+pantalla l:60 t:33.75 f:200 nC:1920 nR:1080
+ojo x:0 y:0 z:0
+g x:1 y:1 z:1
+objetos
+luz x:50 y:0 z:-1200 i:1
+esfera radio:15 px:-170 py:-40 pz:-1325 cR:0 cG:255 cB:0 iRefl:0 iRefr:1 cRefr:1.52
+esfera radio:21 px:0 py:10 pz:-1400 cR:0 cG:0 cB:0 iRefl:1 iRefr:0 cRefr:1.52
+esfera radio:21 px:0 py:100 pz:-1400 cR:150 cG:20 cB:189 iRefl:1 iRefr:0 cRefr:0.75
+esfera radio:10 px:-50 py:100 pz:-1400 cR:150 cG:189 cB:20 iRefl:1 iRefr:0 cRefr:2
+esfera radio:21 px:-41 py:30 pz:-1400 cR:20 cG:150 cB:189 iRefl:1 iRefr:0 cRefr:2
+plano px:0 py:-25 pz:-1550 nx:0 ny:1 nz:0 cR:255 cG:115 cB:0 iRefl:0.1 iRefr:0 cRefr:2

@@ -1,0 +1,16 @@
+iAmbiental 0.2
+pantalla l:60 t:33.75 f:200 nC:1920 nR:1080
+ojo x:0 y:0 z:0
+g x:1 y:1 z:1
+objetos
+luz x:0 y:300 z:-1500 i:0.2
+luz x:0 y:0 z:-1200 i:0.5
+plano px:0 py:-25 pz:-2000 nx:7 ny:-3 nz:6 cR:0 cG:0 cB:255 iRefl:0 iRefr:0 cRefr:2 tipo:2
+plano px:0 py:-25 pz:-2000 nx:-7 ny:-3 nz:6 cR:255 cG:0 cB:0 iRefl:0 iRefr:0 cRefr:2 tipo:2
+plano px:0 py:-25 pz:-2000 nx:0 ny:1 nz:0.15 cR:255 cG:115 cB:0 iRefl:0 iRefr:0 cRefr:2 tipo:2
+esfera radio:21 px:150 py:-20 pz:-1500 cR:0 cG:0 cB:0 iRefl:1 iRefr:0 cRefr:1.52 tipo:0
+esfera radio:21 px:120 py:10 pz:-1500 cR:0 cG:255 cB:0 iRefl:0 iRefr:0 cRefr:1.52 tipo:2
+esfera radio:21 px:-150 py:10 pz:-1500 cR:0 cG:255 cB:0 iRefl:0 iRefr:0 cRefr:1.52 tipo:1
+esfera radio:32 px:-120 py:90 pz:-1690 cR:0 cG:255 cB:255 iRefl:0 iRefr:0 cRefr:1.52 tipo:0
+esfera radio:21 px:-180 py:90 pz:-1500 cR:0 cG:0 cB:0 iRefl:0 iRefr:1 cRefr:1.52 tipo:2
+complejo Halcon.obj
