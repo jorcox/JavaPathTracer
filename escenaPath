@@ -1,17 +1,19 @@
 iAmbiental 0.2
-pantalla l:60 t:33.75 f:200 nC:1920 nR:1080
+pantalla l:60 t:60 f:200 nC:100 nR:100
 ojo x:0 y:0 z:0
 g x:1 y:1 z:1
 objetos
 luz x:0 y:300 z:-1500 i:0.2
 luz x:0 y:0 z:-1200 i:0.5
-plano px:50 py:0 pz:-500 nx:-1 ny:0 nz:0 cR:0 cG:0 cB:255 iRefl:0.5
-plano px:-50 py:0 pz:-500 nx:1 ny:0 nz:0 cR:255 cG:0 cB:0 iRefl:0.5
-plano px:0 py:0 pz:-500 nx:0 ny:0 nz:1 cR:200 cG:200 cB:200 iRefl:0
+plano px:25 py:0 pz:-500 nx:-1 ny:0 nz:0 cR:0 cG:0 cB:255 iRefl:0.5
+plano px:-25 py:0 pz:-500 nx:1 ny:0 nz:0 cR:255 cG:0 cB:0 iRefl:0.5
+plano px:0 py:0 pz:-275 nx:0 ny:0 nz:1 cR:200 cG:200 cB:200 iRefl:0
 plano px:0 py:-25 pz:-500 nx:0 ny:1 nz:0 cR:155 cG:155 cB:200 iRefl:0
-plano px:0 py:25 pz:-500 nx:0 ny:-1 nz:0 cR:255 cG:255 cB:255 iRefl:0
-esfera radio:20 px:-20 py:0 pz:-450 cR:10 cG:10 cB:10 iRefl:1
-esfera radio:10 px:30 py:0 pz:-450 cR:200 cG:75 cB:150 eR:200 eG:75 eB:150 iRefl:0
-complejo cube.obj px:-45 py:-25 pz:-400 cR:10 cG:10 cB:10 iRefl:1 rX:0 rY:40 rZ:0 escala:20
-complejo square.obj px:0 py:24 pz:-350 cR:255 cG:255 cB:255 eR:255 eG:255 eB:255 iRefl:0 rX:90 rY:0 rZ:0 escala:20
-esfera radio:3 px:30 py:-17 pz:-380 cR:75 cG:125 cB:255 iRefl:0
+plano px:0 py:25 pz:-500 nx:0 ny:-1 nz:0 cR:255 cG:255 cB:255 eR:255 eG:255 eB:255 iRefl:0
+esfera radio:5 px:15 py:0 pz:-150 cR:10 cG:10 cB:10 iRefl:1
+esfera radio:2.5 px:5 py:0 pz:-150 cR:200 cG:75 cB:150 eR:200 eG:75 eB:150 iRefl:0
+complejo cube.obj px:-15 py:-25 pz:-175 cR:10 cG:10 cB:10 iRefl:1 rX:0 rY:40 rZ:0 escala:10
+complejo square.obj px:0 py:24 pz:-230 cR:0 cG:0 cB:0 iRefl:0 rX:0 rY:0 rZ:0 escala:20
+complejo square.obj px:-22.5 py:25 pz:-247.5 cR:0 cG:255 cB:0 iRefl:1 rX:40 rY:50 rZ:0 escala:100
+complejo square.obj px:22.5 py:25 pz:-247.5 cR:0 cG:0 cB:255 iRefl:1 rX:40 rY:-50 rZ:0 escala:100
+esfera radio:3 px:-15 py:15 pz:-230 cR:75 cG:125 cB:255 iRefl:0
